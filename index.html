@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Café 1a - Das beste Frühstück in Lahr</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -310,6 +311,33 @@
       </div>
     </div>
   </footer>
+
+  <!-- KI-Assistent -->
+  <div class="ai-assistant" id="ai-assistant">
+    <div class="ai-button" id="ai-button">
+      <i class="fas fa-robot"></i>
+    </div>
+    <div class="ai-chat-container" id="ai-chat-container">
+      <div class="ai-chat-header">
+        <h3>Café 1a Assistent</h3>
+        <button class="ai-close-btn" id="ai-close-btn"><i class="fas fa-times"></i></button>
+      </div>
+      <div class="ai-chat-messages" id="ai-chat-messages">
+        <div class="ai-message ai-incoming">
+          <div class="ai-avatar">
+            <i class="fas fa-robot"></i>
+          </div>
+          <div class="ai-message-content">
+            Hallo! Ich bin der Café 1a Assistent. Wie kann ich Ihnen helfen? Sie können mich nach unseren Öffnungszeiten, Speisekarte oder Reservierungsmöglichkeiten fragen.
+          </div>
+        </div>
+      </div>
+      <div class="ai-chat-input">
+        <input type="text" id="ai-user-input" placeholder="Stellen Sie Ihre Frage...">
+        <button id="ai-send-btn"><i class="fas fa-paper-plane"></i></button>
+      </div>
+    </div>
+  </div>
 
   <script src="script.js"></script>
 </body>
